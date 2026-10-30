@@ -1,0 +1,20 @@
+{
+  "image": "/data/CT_DICOM",
+  "segmentation": null,
+  "modality": "CT",
+  "intensity_is_hu": true,
+  "series_uid": null,
+  "segmentation_reviewed": false,
+  "output_dir": "/data/new_ct_candidate",
+  "slicer_executable": null,
+  "abaqus_command": null,
+  "threads": 2,
+  "auto_ct": {
+    "threshold_hu": [200, 3000],
+    "minimum_component_volume_mm3": 20,
+    "maximum_components": 64,
+    "fill_internal_holes": false
+  },
+  "mesh_mode": "voxel",
+  "geometry_only": true
+}

@@ -1,0 +1,177 @@
+{
+  "name": "ct2abaqus-skills",
+  "release": "1.0.0",
+  "scope": "Repository source/docs and synthetic illustration; no patient scans, anatomy models or proprietary applications",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 140,
+      "sha256": "24ef46b8697174c45ca3307d731ad60e8c718d1312ae9a484a90623d82e4da61"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "bytes": 576,
+      "sha256": "33100058e7824e9d8ce9447fe4160fb722f2410f564d13714d8de5ae222b2912"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 402,
+      "sha256": "942c014b6579d601cbd2f028e23106ad74519542636566fdace7d7f79bcb20d6"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 889,
+      "sha256": "f4e4a781d0d03c9c47fd1d197763c75ce15290809c169a777f17258ad6a3442e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 183,
+      "sha256": "8979bf0f37d2fb469ea05bb0475b09efb18ca81c3deb0f876617307ee50fe504"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 311,
+      "sha256": "e2b2eb02fed8d566214580fa41957ac609797e611815c26cd061e5e400bc8b09"
+    },
+    {
+      "path": "assets/config.example.json",
+      "bytes": 739,
+      "sha256": "1810b16f5609a4f0201e359ba265d0e53a189630d40de3e648790c043a882e81"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 700,
+      "sha256": "fb680f17fe1673663b43d4b458066e325e459f9e3c37eda526bef9a3b19b2556"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 550,
+      "sha256": "bad3284566a5c064c98f8305adb1a341bc1d68f5f72d2349307d6a7ce40136f1"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 602,
+      "sha256": "80b389edf81a8f1c79455364263ae7f258e0b555d34fc3561ca9b202654129b7"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1541,
+      "sha256": "0f0a73e73732e8c419b4a4db3dcdfe7dad6c23906c9eed002ba16cd4f127d164"
+    },
+    {
+      "path": "docs/images/synthetic-workflow.png",
+      "bytes": 145710,
+      "sha256": "25b65c560b5155cf5230a3f3cf1cd259e128217c8361bb715e2144cc5994be3b"
+    },
+    {
+      "path": "docs/quickstart.md",
+      "bytes": 4192,
+      "sha256": "6488cae4811c154af004e7464f5bef2fde12e2fca4d31f184823b5063c548ec8"
+    },
+    {
+      "path": "docs/validation.md",
+      "bytes": 2862,
+      "sha256": "72d4997d714334a7918fff1c19b0a612fab7505bd4095855b3141f91abebd7bb"
+    },
+    {
+      "path": "examples/provided-labels.json",
+      "bytes": 392,
+      "sha256": "49597997676ab5ea26494efe0c24ccc7ccdfc69dd65e11234142e8f636968b45"
+    },
+    {
+      "path": "examples/raw-ct.json",
+      "bytes": 477,
+      "sha256": "fdf86344713d6c1d82888ec9a0ce5b626d5c50cc3d5431c4876cff87d3b79413"
+    },
+    {
+      "path": "examples/raw-mri.json",
+      "bytes": 220,
+      "sha256": "437f2c1282cc7f6ae711cc55c6e7feda379e6174528318596fb680b2c3edffbf"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1218,
+      "sha256": "ac8860b68c4e0f0ca42dda322a33f4be4e8d4af407f8e11a26700093295e6214"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7884,
+      "sha256": "8f88f1612f1450ebf5dfd6452cc45a90985954ab852340869c7c58a56ee2ce8e"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 4479,
+      "sha256": "84e6b7ea8f6434e3ba46b378217111122524796589f2d1e13a0baf25fe48aec2"
+    },
+    {
+      "path": "references/configuration.md",
+      "bytes": 3440,
+      "sha256": "4829d2c81271b2d168d718762f2ab31d40a9bc65a0ac1c2094c03f12804100b7"
+    },
+    {
+      "path": "references/release-tests.json",
+      "bytes": 3102,
+      "sha256": "1474c99a3fd079745160853ff0f8b221e44b27ac518797eb893b374beb7f04d1"
+    },
+    {
+      "path": "references/sources-and-validation.md",
+      "bytes": 1765,
+      "sha256": "b640a578332599e63ac8ebb74d720306f31ad7c7eda4175e0e3fc55dcdd54594"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 3436,
+      "sha256": "023abec34778051579d67bae2f51286df2ef4af90e239c075ce1e6c4bb623149"
+    },
+    {
+      "path": "scripts/abaqus_import.py",
+      "bytes": 1829,
+      "sha256": "8af4966c4e4ea85a80cbd794e95690cb815bb189fe2bc3b3dbdf14759714c3ee"
+    },
+    {
+      "path": "scripts/create_test_fixture.py",
+      "bytes": 1438,
+      "sha256": "a09c7bf7f58f5829df7e75c99244d13250c58c1539e543ef564831c195314235"
+    },
+    {
+      "path": "scripts/mesh_and_inp.py",
+      "bytes": 7472,
+      "sha256": "096765d8a70127c6b4740240d8685a1b93e2abd51ff8496ad8c32ebc2f4fd353"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "bytes": 23,
+      "sha256": "4cc054af899568ae2846d60b0e6ab08c5026c7366f31fa0794c469167a5bb8be"
+    },
+    {
+      "path": "scripts/run_pipeline.py",
+      "bytes": 6343,
+      "sha256": "e1bd0757044755c057c4bd5133682d14fff9b8bd7c8549100195ba1d87a0fd16"
+    },
+    {
+      "path": "scripts/slicer_prepare.py",
+      "bytes": 9754,
+      "sha256": "be0e2cb9c184c1d8259cfbd1694bea2d8ecdef3d6d277c8a8be7c32996717647"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1012,
+      "sha256": "e5ecbe11cf74d299e03683ab2d2449c2ebf68ce028fbfd82025b9adf725932d6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3931,
+      "sha256": "47833bbd65f540ef9f4237320d8c6cd7f631f49affd8fa4fa14af9ecbcf2fcdd"
+    },
+    {
+      "path": "tests/test_geometry.py",
+      "bytes": 1926,
+      "sha256": "1284f5622158dba4c91e14962d6e95e6aa6fe9e2f8e46e1f7c22b1244a3720aa"
+    },
+    {
+      "path": "tests/test_intake.py",
+      "bytes": 3368,
+      "sha256": "1e29eb1ec0e6af9dcdc132d56337c840cddf9038fe28863cfaf4c5a8970dc50a"
+    }
+  ]
+}

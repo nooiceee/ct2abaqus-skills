@@ -1,0 +1,27 @@
+{
+  "image": "/absolute/path/to/CT_DICOM_folder_or_volume.nii.gz",
+  "segmentation": null,
+  "modality": "CT",
+  "intensity_is_hu": false,
+  "series_uid": null,
+  "selected_segments": [],
+  "label_names": {},
+  "segmentation_reviewed": false,
+  "output_dir": "/absolute/path/to/new_ct2abaqus_output",
+  "slicer_executable": null,
+  "abaqus_command": null,
+  "threads": 2,
+  "timeout_seconds": 900,
+  "auto_ct": {
+    "threshold_hu": [200, 3000],
+    "minimum_component_volume_mm3": 20,
+    "maximum_components": 64,
+    "fill_internal_holes": false
+  },
+  "mesh_mode": "tet",
+  "target_edge_mm": 1.5,
+  "fallback_to_voxel": true,
+  "max_tet_volume_change_fraction": 0.05,
+  "max_voxel_elements_per_part": 500000,
+  "geometry_only": true
+}

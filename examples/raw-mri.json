@@ -1,0 +1,10 @@
+{
+  "image": "/data/MRI.nrrd",
+  "modality": "MRI",
+  "intensity_is_hu": false,
+  "output_dir": "/data/new_mri_workspace",
+  "slicer_executable": null,
+  "abaqus_command": null,
+  "threads": 2,
+  "geometry_only": true
+}

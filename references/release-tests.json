@@ -1,0 +1,111 @@
+{
+  "created": "2026-10-30T11:21:14.514935",
+  "package_name": "ct2abaqus-skills",
+  "release": "1.0",
+  "tested_platform": "Windows11",
+  "actual_versions": {
+    "Slicer": "5.12.4",
+    "Abaqus_CAE": "2025",
+    "Python": "3.13"
+  },
+  "functional_cases": [
+    {
+      "case": "supplied_portable_r02",
+      "state": "GEOMETRY_GENERATED",
+      "segmentation_status": "SUPPLIED_SEGMENTATION_NEEDS_REVIEW",
+      "scene_archive_crc": "PASS",
+      "analysis": "NOT_RUN",
+      "parts": 3,
+      "nodes": 1169,
+      "elements": 2365,
+      "types": {
+        "C3D4": 1991,
+        "C3D8": 374
+      },
+      "minimum_signed_determinant": 0.20588013242320188,
+      "reparsed_volume_mm3": 1102.5203635088135,
+      "cae_import": "VERIFIED"
+    },
+    {
+      "case": "raw_ct",
+      "state": "GEOMETRY_GENERATED",
+      "segmentation_status": "NEEDS_SEGMENTATION_REVIEW",
+      "scene_archive_crc": "PASS",
+      "analysis": "NOT_RUN",
+      "parts": 3,
+      "nodes": 1528,
+      "elements": 987,
+      "types": {
+        "C3D8": 987
+      },
+      "minimum_signed_determinant": 1.1439999999999875,
+      "reparsed_volume_mm3": 1129.128000000005
+    },
+    {
+      "case": "raw_dicom",
+      "state": "GEOMETRY_GENERATED",
+      "segmentation_status": "NEEDS_SEGMENTATION_REVIEW",
+      "scene_archive_crc": "PASS",
+      "analysis": "NOT_RUN",
+      "parts": 3,
+      "nodes": 1528,
+      "elements": 987,
+      "types": {
+        "C3D8": 987
+      },
+      "minimum_signed_determinant": 1.1439999999999875,
+      "reparsed_volume_mm3": 1129.1280000000052
+    },
+    {
+      "case": "raw_mri",
+      "state": "NEEDS_SEGMENTATION",
+      "segmentation_status": "NEEDS_SEGMENTATION",
+      "scene_archive_crc": "PASS",
+      "analysis": "NOT_RUN"
+    },
+    {
+      "case": "public_ct_calcaneus",
+      "state": "GEOMETRY_GENERATED",
+      "segmentation_status": "SUPPLIED_SEGMENTATION_NEEDS_REVIEW",
+      "scene_archive_crc": "PASS",
+      "analysis": "NOT_RUN",
+      "parts": 1,
+      "nodes": 6523,
+      "elements": 29253,
+      "types": {
+        "C3D4": 29253
+      },
+      "minimum_signed_determinant": 1.3738960963874616,
+      "reparsed_volume_mm3": 54245.8331052809,
+      "cae_import": "VERIFIED"
+    }
+  ],
+  "archive_cases": [
+    {
+      "case": "unsafe_zip",
+      "state": "FAILED",
+      "exit_code": 1
+    },
+    {
+      "case": "ambiguous_zip",
+      "state": "NEEDS_IMAGE_FILE_SELECTION",
+      "exit_code": 0
+    }
+  ],
+  "finite_element_analyses_submitted": 0,
+  "limits": [
+    "No universal automatic anatomical segmentation established",
+    "Unlabelled MRI provides a review workspace, no invented geometry",
+    "Per-part quality is not an inter-part collision check",
+    "Mac/Linux and other Slicer/Abaqus releases require their own runtime verification"
+  ],
+  "public_release_smoke": {
+    "date": "2026-10-30",
+    "platform": "Windows11",
+    "actual_pipeline_state": "GEOMETRY_GENERATED",
+    "actual_cae_import": "VERIFIED",
+    "unit_tests": 8,
+    "unit_tests_result": "PASS",
+    "scope": "Synthetic conversion and CAE import; no finite element analysis"
+  }
+}

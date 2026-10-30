@@ -1,0 +1,4 @@
+interface:
+  display_name: "CT/MRI 到 Abaqus"
+  short_description: "从医学影像与分割生成可核查的实体网格和Abaqus预览模型"
+  default_prompt: "使用 $ct2abaqus-skills 处理我上传的CT或MRI，完成分割准备、实体网格和Abaqus导入，并标明需要人工确认的内容。"
