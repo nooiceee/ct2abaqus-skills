@@ -5,7 +5,7 @@ type: software
 authors:
   - name: "nooiceee"
     website: "https://github.com/nooiceee"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-30
 url: "https://github.com/nooiceee/ct2abaqus-skills"
 repository-code: "https://github.com/nooiceee/ct2abaqus-skills"

@@ -1,6 +1,6 @@
 {
   "name": "ct2abaqus-skills",
-  "release": "1.0.0",
+  "release": "1.0.1",
   "scope": "Repository source/docs and synthetic illustration; no patient scans, anatomy models or proprietary applications",
   "files": [
     {
@@ -40,13 +40,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 700,
-      "sha256": "fb680f17fe1673663b43d4b458066e325e459f9e3c37eda526bef9a3b19b2556"
+      "bytes": 903,
+      "sha256": "13b2de66596382addbbd0346642a2537c779258dffcbdc06a8a5d07a6e1c361c"
     },
     {
       "path": "CITATION.cff",
       "bytes": 550,
-      "sha256": "bad3284566a5c064c98f8305adb1a341bc1d68f5f72d2349307d6a7ce40136f1"
+      "sha256": "0d2e774fd0e801d48be5d95f8d48e266c2f756ee1fcfd414d45aea7f7394fb92"
     },
     {
       "path": "CODE_OF_CONDUCT.md",
@@ -90,8 +90,13 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 1218,
-      "sha256": "ac8860b68c4e0f0ca42dda322a33f4be4e8d4af407f8e11a26700093295e6214"
+      "bytes": 1086,
+      "sha256": "2b94123749b9ab2aa81df944b9919c2a0a34dbeceb0b5e20b11b2d0bd428f9b7"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 763,
+      "sha256": "9d0dde2a096643f514d1082b204c51da1405d34c1b7f35d372fe15030bae235a"
     },
     {
       "path": "README.md",

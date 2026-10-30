@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 — 2026-10-30
+
+- Keep the standard MIT text in LICENSE for automatic recognition.
+- Move third-party licensing distinctions to NOTICE.md.
+- No runtime, geometry or physical-definition change.
+
 ## 1.0.0 — 2026-10-30
 
 Initial public release of the research conversion workflow.
